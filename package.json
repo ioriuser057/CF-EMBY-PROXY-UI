@@ -15,6 +15,7 @@
     "check:worker-architecture": "node ./scripts/check-worker-architecture.mjs",
     "check:worker-bundle": "node ./scripts/check-worker-bundle.mjs",
     "build:frontend": "npm run build --workspace frontend",
+    "build:cdn": "npm run build:cdn --workspace frontend",
     "build:release": "npm run build:worker && npm run build:cdn --workspace frontend",
     "lint": "oxlint --deny-warnings .",
     "lint:fix": "oxlint --fix .",
